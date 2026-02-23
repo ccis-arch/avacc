@@ -1,0 +1,9 @@
+{
+  "query": "-- Insert Reorder Alerts with correct alertType enum values\nINSERT INTO reorderAlerts (inventoryId, alertType, quantity, status) VALUES\n(8, 'low_stock', 30, 'active'),\n(19, 'low_stock', 20, 'active'),\n(24, 'low_stock', 20, 'active'),\n(10, 'low_stock', 25, 'active'),\n(3, 'expiring_soon', 30, 'active'),\n(14, 'expiring_soon', 25, 'active');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 43D9dggN78KDvAD.root --database NynknBKxpcF7ucRWsLefm9 --execute -- Insert Reorder Alerts with correct alertType enum values\nINSERT INTO reorderAlerts (inventoryId, alertType, quantity, status) VALUES\n(8, 'low_stock', 30, 'active'),\n(19, 'low_stock', 20, 'active'),\n(24, 'low_stock', 20, 'active'),\n(10, 'low_stock', 25, 'active'),\n(3, 'expiring_soon', 30, 'active'),\n(14, 'expiring_soon', 25, 'active');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1587
+}
